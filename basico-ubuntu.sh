@@ -23,8 +23,7 @@ sdk install java 17.0.9-tem
 sudo service apache2 start
 
 # Clonando el repositorio.
-git clone https://github.com/Brigibel12/practica4-Brigibel.git && practica4-Brigibel
-chmod +x script.sh && bash script.sh
+git clone https://github.com/Brigibel12/practica4-Brigibel.git
 
 # Copiando los archivos de configuración en la ruta indicada.
 sudo cp ~/practica4-Brigibel/seguro.conf /etc/apache2/sites-available/
